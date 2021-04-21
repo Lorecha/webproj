@@ -1,7 +1,7 @@
 package agenceVoyageTest;
-import static org.junit.Assert.assertTrue;
 
-import org.junit.Before;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -24,7 +24,7 @@ public class AgenceVoyageServiceTest {
 public void testReserver()
 {
 	
-	assertTrue(agence.reserver(voyage));
+	assertTrue(agence.reserver(voyage),"tout vas bien");
 	
 }
 

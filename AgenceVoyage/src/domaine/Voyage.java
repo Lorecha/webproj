@@ -8,7 +8,8 @@ import java.util.ArrayList;
  */
 public class Voyage {
 
-  private int numeroVoyage;
+
+    private int numeroVoyage;
   private Boolean statut;
   public double prix;
   public ArrayList <Formule> Formule;

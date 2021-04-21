@@ -10,6 +10,10 @@ public class Client extends Personne {
     public  String user="Client1";
     public  String password ="123456";
 
+    public Client(String civilite, String nom, String prenom, String email, Adresse myAdresse) {
+        super(civilite, nom, prenom, email, myAdresse);
+    }
+
     public boolean authenitification ( String userName, String password) {
         return (userName.equals(this.user) && password.equals(this.password));
     }
