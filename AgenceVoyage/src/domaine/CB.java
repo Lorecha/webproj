@@ -1,6 +1,6 @@
 package domaine;
 
-import java.util.Date;
+
 
 public class CB extends MoyenPaiement {
   private int numeroCB;
@@ -19,11 +19,5 @@ public class CB extends MoyenPaiement {
     this.numeroCB = numeroCB;
   }
 
-  public String getDateExpiration() {
-    return dateExpiration;
-  }
 
-  public void setDateExpiration(String dateExpiration) {
-    this.dateExpiration = dateExpiration;
-  }
 }

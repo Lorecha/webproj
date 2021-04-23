@@ -35,4 +35,8 @@ public class Chambre  {
     public void setPrestation(PrestationHebergement prestation) {
         this.prestation = prestation;
     }
+    @Override
+    public String toString() {
+        return "Chambre au prix de: "+  prixChambre +" eur  avec les prestations :" + prestation ;
+    }
 }

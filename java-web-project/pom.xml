@@ -1,5 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <properties>
+<maven.compiler.source>1.10</maven.compiler.source>
+<maven.compiler.target>1.10</maven.compiler.target>
+</properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.aenori.web</groupId>
   <artifactId>java-web-project</artifactId>
@@ -21,7 +25,18 @@
 	<scope>provided</scope>
 	</dependency>
   </dependencies>
+ 
   <build>
     <finalName>java-web-project</finalName>
+    
+<plugins>
+	  	<plugin>
+		    <groupId>org.apache.tomcat.maven</groupId>
+		    <artifactId>tomcat-maven-plugin</artifactId>
+		    <version>3.3</version>
+		</plugin>
+  	</plugins>
+    
   </build>
+   
 </project>

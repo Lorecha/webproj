@@ -1,18 +1,18 @@
 package domaine;
 
 public class MoyenPaiement {
-  /* {author=Laure, version=1.0}*/
+	public String banque;
+    public double solde;
 
+public MoyenPaiement(String banque, double solde) {
+	super();
+	this.banque = banque;
+	this.solde = solde;
+}
 
-  /** 
-   *  Nom de la banque
-   */
-  public String banque;
-  /**
-   *  Montant sur le compte du client sur le compte de la banque
-   */
-  public double solde;
-
+public MoyenPaiement() {
+	super();
+}
 
   
 }
