@@ -7,6 +7,7 @@ public class CB extends MoyenPaiement {
   private String dateExpiration;
 
   public CB(int numeroCB, String dateExpiration) {
+	 super();
     this.numeroCB = numeroCB;
     this.dateExpiration = dateExpiration;
   }

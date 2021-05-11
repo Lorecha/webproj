@@ -14,6 +14,8 @@ public abstract class Personne {
     this.email = email;
     this.adresse = myAdresse;
   }
+ 
+  // constructeur avec les informations sur  adresse
   public Personne(String civilite, String nom, String prenom, String email, String rue, String ville, String codepostal, String region, String pays) {
       this.civilite = civilite;
       this.nom = nom;
@@ -25,4 +27,12 @@ public abstract class Personne {
       this.adresse.setRegion(region);
       this.adresse.setPays(pays);
   }
+
+/**
+ * 
+ */
+public Personne() {
+	
+}
+  
 }

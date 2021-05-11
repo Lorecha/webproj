@@ -59,7 +59,6 @@ public static double calculprixtotal(ArrayList<Voyageur> listedevoyageurs)
 
 }
 
-
 @Override
 public String toString() {
 	return "Reservation [numeroReservation=" + numeroReservation + ", etatReservation=" + etatReservation + ", client="
